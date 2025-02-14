@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/5.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-34xe#8x$4+k^lyh!62eic&=a!@b6=t^ey3@ri7=6v=$g#&4xzm'
+SECRET_KEY = ''
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -159,11 +159,12 @@ MEDIA_ROOT = BASE_DIR / 'media'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
+# add your own Stripe keys to it work funcitonal
 
-STRIPE_PUBLIC_KEY = 'pk_test_51QU3yrEtdtoorhVJSSMdisFGgYQTgTGGwuCWKSBF0VDHdBD0lpa8xecPi0P09EvQk0FgtzHmXim3ajoSkSHA3Z89000keVO2CT'
+STRIPE_PUBLIC_KEY = ''
 
 
-STRIPE_SECRET_KEY = 'sk_test_51QU3yrEtdtoorhVJr0zZ5b0L52JlN8oLdYlsrIgr4rz0wzJHNTBM2gCOtd7bCueEd1Al0PA4fHGYUatE6NkTOdaX00pwIyVgHc'
+STRIPE_SECRET_KEY = ''
 
 
 
