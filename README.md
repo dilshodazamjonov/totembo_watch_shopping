@@ -9,7 +9,8 @@ This repository contains a collection of web applications I built using Django f
 2nd. Activate a virtual enviornment using command in the terminal:
 > **venv/Scripts/activate**
 
-3rd. Download the raw version of the file from the github repository, and add all the files into your project file **clocks**
+3rd. Download the raw version of the file from the github repository, and add all the files into your project file clocks
+
 4. Download all the required libraries used for this project by typing:
 > pip install -m requirements.txt
 > 
